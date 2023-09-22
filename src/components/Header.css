@@ -1,0 +1,32 @@
+.header{
+    background-color: var(--primary);
+    padding-block: 10px;
+  }
+  .header .container ,ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header a {
+  color: var(--white);
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  margin-right: 15px;
+
+  }
+  .header a:hover{
+    opacity: 0.7;
+  }
+  .logo a{
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  @media (max-width:575px){
+    .header a{
+        margin: 0px 5px;
+    }
+  }
+   .header:last-child{
+    margin-right: 0;
+  }
